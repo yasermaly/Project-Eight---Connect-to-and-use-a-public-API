@@ -5,9 +5,9 @@
 
 /* 
     Project Notes: 
-    I am going for an 'Exceeds Expectations grade! :)
+    I am going for an 'Exceeds Expectations' grade! :)
     Added a searchbar to filter the directory by name
-    Added forward and back buttons to move between employee detail windows when the modal window is open.
+    Added forward and back buttons to move between employee detail windows when the modal window is open
 */
 
 // Global variables
@@ -35,7 +35,7 @@ function storeFetchData(employeeData) {
   getProfiles(employeeData)
 }
 
-// Create a card per employee using the fetched data.  
+// Create a card per employee using the fetched data 
 function getProfiles(employeeData) {
 
   let employeeCard = '';
