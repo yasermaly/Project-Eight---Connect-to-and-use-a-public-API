@@ -172,7 +172,6 @@ modalClose.addEventListener('click', () => {
 
 searchButton.addEventListener('click', (e) => e.target = searchMatches(employees));
 
-
 search.addEventListener('keyup', e => {
   searchInput = e.target.value.toLowerCase();
   console.log(searchInput);
