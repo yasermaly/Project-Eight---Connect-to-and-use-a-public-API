@@ -29,13 +29,13 @@ fetch(usersUrl)
   .catch(err => console.log(err))
 
 
-//Store fetched data
+// Store fetched data
 function storeFetchData(employeeData) {
   employees = employeeData;
   getProfiles(employeeData)
 }
 
-//Create a card per employee using the fetched data.  
+// Create a card per employee using the fetched data.  
 function getProfiles(employeeData) {
 
   let employeeCard = '';
@@ -90,7 +90,7 @@ function displayModalWindow(index) {
   modalContainer.innerHTML = employeeModalWindow;
 }
 
-//Take user input and iterate through all employee cards looking for matches
+// Take user input and iterate through all employee cards looking for matches
 function searchMatches () {
   const searchBar = document.querySelector('#search');
   const searchInput = searchBar.value.toLowerCase();
