@@ -47,7 +47,6 @@ p {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     grid-gap: 2em;
-    cursor: pointer;
 }
 
 .card {
@@ -58,6 +57,7 @@ p {
     align-items: center;
     padding: 10px 20px;
     background-color: white;
+    cursor: pointer;
 }
 
 .avatar {
