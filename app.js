@@ -169,7 +169,6 @@ modalClose.addEventListener('click', () => {
 
 
 // Filter the search results by either clicking or typing
-
 searchButton.addEventListener('click', (e) => e.target = searchMatches(employees));
 
 search.addEventListener('keyup', e => {
